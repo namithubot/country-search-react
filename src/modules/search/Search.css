@@ -1,0 +1,9 @@
+.search-input {
+    width: 75vw;
+}
+
+.country-search-label .search-flag {
+    float: right;
+    width: 5vw;
+    height: 5vh;
+}

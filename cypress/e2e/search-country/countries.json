@@ -1,0 +1,196 @@
+[
+    {
+        "commonName": "India",
+        "officialName": "Republic of India",
+        "nativeNames": [
+            "Republic of India",
+            "भारत गणराज्य",
+            "இந்தியக் குடியரசு"
+        ],
+        "domains": [
+            ".in"
+        ],
+        "isIndependent": true,
+        "status": "officially-assigned",
+        "currencies": [
+            {
+                "name": "Indian rupee",
+                "code": "INR",
+                "symbol": "₹"
+            }
+        ],
+        "countryCode": [
+            91
+        ],
+        "capitals": [
+            "New Delhi"
+        ],
+        "alternativeSpellings": [
+            "IN",
+            "Bhārat",
+            "Republic of India",
+            "Bharat Ganrajya",
+            "இந்தியா"
+        ],
+        "region": "Asia",
+        "subRegion": "Southern Asia",
+        "languages": {
+            "name": [
+                "English",
+                "Hindi",
+                "Tamil"
+            ],
+            "code": [
+                "eng",
+                "hin",
+                "tam"
+            ]
+        },
+        "isLandlocked": false,
+        "neighbours": [
+            "BGD",
+            "BTN",
+            "MMR",
+            "CHN",
+            "NPL",
+            "PAK"
+        ],
+        "areaInkm": 3287590,
+        "mapLink": "https://www.openstreetmap.org/relation/304716",
+        "population": 1380004385,
+        "timeZonesInMinutes": [
+            "30030"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flagLink": "https://flagcdn.com/in.svg",
+        "coatOfArmsLink": "https://mainfacts.com/media/images/coats_of_arms/in.svg",
+        "startOfWeek": "monday",
+        "isDrivingRightHanded": false,
+        "citizenDemonyms": {
+            "male": "Indian",
+            "female": "Indian"
+        }
+    },
+    {
+        "commonName": "British Indian Ocean Territory",
+        "officialName": "British Indian Ocean Territory",
+        "nativeNames": [
+            "British Indian Ocean Territory"
+        ],
+        "domains": [
+            ".io"
+        ],
+        "isIndependent": false,
+        "status": "officially-assigned",
+        "currencies": [
+            {
+                "name": "United States dollar",
+                "code": "USD",
+                "symbol": "$"
+            }
+        ],
+        "countryCode": [
+            246
+        ],
+        "capitals": [
+            "Diego Garcia"
+        ],
+        "alternativeSpellings": [
+            "IO"
+        ],
+        "region": "Africa",
+        "subRegion": "Eastern Africa",
+        "languages": {
+            "name": [
+                "English"
+            ],
+            "code": [
+                "eng"
+            ]
+        },
+        "isLandlocked": false,
+        "areaInkm": 60,
+        "mapLink": "https://www.openstreetmap.org/relation/1993867",
+        "population": 3000,
+        "timeZonesInMinutes": [
+            "36000"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flagLink": "https://flagcdn.com/io.svg",
+        "startOfWeek": "monday",
+        "isDrivingRightHanded": true,
+        "citizenDemonyms": {
+            "male": "Indian",
+            "female": "Indian"
+        }
+    },
+    {
+        "commonName": "Indonesia",
+        "officialName": "Republic of Indonesia",
+        "nativeNames": [
+            "Republik Indonesia"
+        ],
+        "domains": [
+            ".id"
+        ],
+        "isIndependent": true,
+        "status": "officially-assigned",
+        "currencies": [
+            {
+                "name": "Indonesian rupiah",
+                "code": "IDR",
+                "symbol": "Rp"
+            }
+        ],
+        "countryCode": [
+            62
+        ],
+        "capitals": [
+            "Jakarta"
+        ],
+        "alternativeSpellings": [
+            "ID",
+            "Republic of Indonesia",
+            "Republik Indonesia"
+        ],
+        "region": "Asia",
+        "subRegion": "South-Eastern Asia",
+        "languages": {
+            "name": [
+                "Indonesian"
+            ],
+            "code": [
+                "ind"
+            ]
+        },
+        "isLandlocked": false,
+        "neighbours": [
+            "TLS",
+            "MYS",
+            "PNG"
+        ],
+        "areaInkm": 1904569,
+        "mapLink": "https://www.openstreetmap.org/relation/21335",
+        "population": 273523621,
+        "timeZonesInMinutes": [
+            "42000",
+            "48000",
+            "54000"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flagLink": "https://flagcdn.com/id.svg",
+        "coatOfArmsLink": "https://mainfacts.com/media/images/coats_of_arms/id.svg",
+        "startOfWeek": "monday",
+        "isDrivingRightHanded": false,
+        "citizenDemonyms": {
+            "male": "Indonesian",
+            "female": "Indonesian"
+        }
+    }
+]
