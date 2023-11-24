@@ -1,0 +1,15 @@
+.details {
+	margin: 4rem;
+}
+
+.info {
+	flex-direction: row;
+}
+
+.basic-info-item {
+	width: 10rem;
+}
+
+.long-info-item {
+	width: 20rem;
+}

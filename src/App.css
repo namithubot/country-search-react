@@ -34,3 +34,14 @@
     transform: rotate(360deg);
   }
 }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #000;
+  color: white;
+}
+
+#root {
+  padding: 24px;
+}

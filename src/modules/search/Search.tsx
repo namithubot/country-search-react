@@ -3,6 +3,7 @@ import { AutoComplete } from "antd";
 import "./Search.css";
 import { searchCountry } from "./services/Search-Country.service";
 import { Country } from "./models/Country.model";
+import CountryDetails from "../details/CountryDetails";
 
 /**
  * Search autocomplete component.
@@ -11,10 +12,12 @@ import { Country } from "./models/Country.model";
  */
 export default function Search() {
   const [countries, setCountries] = useState<Country[]>([]);
+  const [selectedCountry, setSelectedCountry] = useState<Country>({} as Country);
   const [isSearching, setIsSearching] = useState<NodeJS.Timeout>();
   const [searchString, setSearchString] = useState('');
-  const onSelect = (data: string) => {
-    console.log("onSelect", data);
+  const onSelect = (selectedOfficialName: string) => {
+    setSelectedCountry(
+      countries.find(country => country.officialName === selectedOfficialName) || {} as Country);
   };
 
   const SearchCountry = async (countryName: string) => {
@@ -24,7 +27,7 @@ export default function Search() {
     // Wait for 1000 second and do a search API call.
     const timeoutId = setTimeout(async () => {   
       try {
-        const countries = await searchCountry(countryName);
+        const countries = await searchCountry(searchString);
         setCountries(countries);
       } catch (e) {
         console.error(e);
@@ -35,7 +38,7 @@ export default function Search() {
   };
 
   const renderLabel = (country: Country) => (
-    <span className="country-search-label">
+    <span className="country-search-label" data-testid={`option-${country.commonName}`}>
       {country.commonName}
 
       <img className="search-flag" src={country.flagLink} />
@@ -44,7 +47,7 @@ export default function Search() {
 
   const options = countries.map((country) => ({
     label: renderLabel(country),
-    value: country.commonName,
+    value: country.officialName,
   }));
 
   return (
@@ -56,6 +59,7 @@ export default function Search() {
         onSearch={SearchCountry}
         placeholder="Search countries"
       />
+      <CountryDetails country={selectedCountry} />
     </div>
   );
 }

@@ -10,7 +10,7 @@ context('Country Search', () => {
 
   it('should autocomplete for the given input', () => {
 	// Type something in the search bar.
-	cy.get('.search-input').type('Ind');
+	cy.get('.search-input').type('Indi');
 
 	// Mock the API response.
     cy.intercept('GET', '**/countries/*', countries).as('getCountries');

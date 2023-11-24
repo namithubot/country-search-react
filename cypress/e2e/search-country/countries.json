@@ -34,18 +34,20 @@
         ],
         "region": "Asia",
         "subRegion": "Southern Asia",
-        "languages": {
-            "name": [
-                "English",
-                "Hindi",
-                "Tamil"
-            ],
-            "code": [
-                "eng",
-                "hin",
-                "tam"
-            ]
-        },
+        "languages": [
+            {
+                "name": "English",
+                "code": "eng"
+            },
+            {
+                "name": "Hindi",
+                "code": "hin"
+            },
+            {
+                "name": "Tamil",
+                "code": "tam"
+            }
+        ],
         "isLandlocked": false,
         "neighbours": [
             "BGD",
@@ -59,7 +61,7 @@
         "mapLink": "https://www.openstreetmap.org/relation/304716",
         "population": 1380004385,
         "timeZonesInMinutes": [
-            "30030"
+            330
         ],
         "continents": [
             "Asia"
@@ -102,20 +104,18 @@
         ],
         "region": "Africa",
         "subRegion": "Eastern Africa",
-        "languages": {
-            "name": [
-                "English"
-            ],
-            "code": [
-                "eng"
-            ]
-        },
+        "languages": [
+            {
+                "name": "English",
+                "code": "eng"
+            }
+        ],
         "isLandlocked": false,
         "areaInkm": 60,
         "mapLink": "https://www.openstreetmap.org/relation/1993867",
         "population": 3000,
         "timeZonesInMinutes": [
-            "36000"
+            360
         ],
         "continents": [
             "Asia"
@@ -126,71 +126,6 @@
         "citizenDemonyms": {
             "male": "Indian",
             "female": "Indian"
-        }
-    },
-    {
-        "commonName": "Indonesia",
-        "officialName": "Republic of Indonesia",
-        "nativeNames": [
-            "Republik Indonesia"
-        ],
-        "domains": [
-            ".id"
-        ],
-        "isIndependent": true,
-        "status": "officially-assigned",
-        "currencies": [
-            {
-                "name": "Indonesian rupiah",
-                "code": "IDR",
-                "symbol": "Rp"
-            }
-        ],
-        "countryCode": [
-            62
-        ],
-        "capitals": [
-            "Jakarta"
-        ],
-        "alternativeSpellings": [
-            "ID",
-            "Republic of Indonesia",
-            "Republik Indonesia"
-        ],
-        "region": "Asia",
-        "subRegion": "South-Eastern Asia",
-        "languages": {
-            "name": [
-                "Indonesian"
-            ],
-            "code": [
-                "ind"
-            ]
-        },
-        "isLandlocked": false,
-        "neighbours": [
-            "TLS",
-            "MYS",
-            "PNG"
-        ],
-        "areaInkm": 1904569,
-        "mapLink": "https://www.openstreetmap.org/relation/21335",
-        "population": 273523621,
-        "timeZonesInMinutes": [
-            "42000",
-            "48000",
-            "54000"
-        ],
-        "continents": [
-            "Asia"
-        ],
-        "flagLink": "https://flagcdn.com/id.svg",
-        "coatOfArmsLink": "https://mainfacts.com/media/images/coats_of_arms/id.svg",
-        "startOfWeek": "monday",
-        "isDrivingRightHanded": false,
-        "citizenDemonyms": {
-            "male": "Indonesian",
-            "female": "Indonesian"
         }
     }
 ]
